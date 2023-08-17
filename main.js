@@ -16,8 +16,6 @@ var betterWords = storyWords.filter(function (word) {
     return word =! unnecessaryWords.includes(word);
 });
 
-
-
 let extremelyCount = 0;
 let literallyCount = 0;
 let actuallyCount = 0;
@@ -39,9 +37,6 @@ for (let i = 0; i < storyWords.length; i++) {
         sentenceCount++;
     }
   };
-
- 
-  
  
  console.log(betterWords.length);
  console.log('sentences: '+ sentenceCount);
